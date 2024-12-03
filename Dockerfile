@@ -21,3 +21,4 @@ EXPOSE 4567
 
 # Define the command to run the app
 CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "--port", "4567"]
+
