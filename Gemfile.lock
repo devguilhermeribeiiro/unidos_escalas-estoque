@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.2.0)
+    dotenv (3.1.4)
     logger (1.6.1)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
@@ -32,6 +33,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  dotenv (~> 3.1)
   puma (= 6.5.0)
   rackup (= 2.2.1)
   sinatra (~> 4.1)
